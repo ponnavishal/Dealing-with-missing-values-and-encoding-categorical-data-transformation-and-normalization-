@@ -1,2 +1,5 @@
 # Dealing-with-missing-values-and-encoding-categorical-data-transformation-and-normalization-
 Dealing with missing values and encoding categorical data. Apply data transformation and normalization.
+Working with Missing Data Missing Data can occur when no information is provided for one or more items or for a whole unit. Missing Data can also refer to as NA(Not Available) values in pandas. In DataFrame sometimes many datasets simply arrive with missing data, either because it exists and was not collected or it never existed. Pandas treat None and NaN as essentially interchangeable for indicating missing or null values. To facilitate this convention, there are several useful functions for detecting, removing, and replacing null values in Pandas DataFrame :
+
+isnull() notnull() dropna() fillna() replace() interpolate() Now let’s look at the different methods that we can use to deal with the missing data. Deleting the columns with missing data Deleting the rows with missing data Filling the missing data with a value – Imputation Imputation with an additional column Filling with a Regression Model
